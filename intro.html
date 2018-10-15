@@ -6,110 +6,216 @@
     <!-- Font Awesome -->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
      <!--Import Google Icon Font-->
-     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <!--Import materialize.css-->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
      <!--Let browser know website is optimized for mobile-->
      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-     <nav>
-       <div class="nav-wrapper" style="background-color: #444140">
-         <a href="#" clas="brand-logo right"> </a>
-         <ul id="nav-mobile" class"left hide-on-med-and-down">
-           <li><a href="#"><i class="material-icons">search</i></a></li>
-           <li><a href="file:///S:/mbeckwith/intro.html"><i class="material-icons left">refresh</i></a></li>
-         </ul>
-       </div>
-     </nav>
-     <br><br>
-     <div class="center align">
+
     </head>
   </head>
-  <body style="background-color: #FFA987; font-family:verendas"><p style="color: #F7EBE8;"></p>
-    <header>
-      <h1 style="text-align: center">Monument Valley, Arizona</h1>
-      </header>
-      <body style="background-color:#FFA987; font family:verendas">
-        <div class="center align" style="background-color:#ffa987; font family:verendas">
-<p style="color: #F7EBE8;"></p>
-
-<p class="flow-text"
-<center><img src="https://lonelyplanetimages.imgix.net/a/g/hi/t/7cb15f040aed09067fb48ab6234fd63f-monument-valley-navajo-tribal-park.jpg?sharp=10&vib=20&w=1200" alt="" style="width:50%; height:50%"><center>
-<p>Right on the eastern border of Utah and Arizona, you can find this gorgeous, unique landscape known as Mounument Valley.<small>
-    <center><img src="http://www.monumentvalley-tipivillage.com/wp-content/uploads/2014/12/MVTV-500mile-map-Web-11-22-14.jpg" alt="" style="width:30%; height:30%"><center>
-      <a href="https://www.google.com/maps/place/Monument+Valley+Navajo+Tribal+Park/@36.9895165,-110.1334307,17z/data=!3m1!4b1!4m5!3m4!1s0x873731f8554a299b:0xa661fbb48fdeb730!8m2!3d36.9895165!4d-110.131242"><button class="btn btn-large red"><i class="material-icons left">drive_eta</i>Click to view in Google Maps</button></a>
-<p><center><center><p>
-<p>Monument Valley Navajo Tribal Park boasts some of the most majestic rock formations. Some of these masterpieces tower at a staggering 1,000 feet!
-<center><img src="https://www.gousa.in/sites/default/files/styles/hero_m_1300x700/public/images/hero_media_image/2016-11/07f3092a58ea8d0102ef88b72c837cd4.png?itok=6U0I70kG" alt="" style="width:50%;height:30%"><center>
-</p>As you can see, Monument Valley Park has many beatiful natural features. A few of these include..
-<ul>
-            -West Mitten Butte
-          </ul>
-          <ul>
-            -East Mitten Butte
-          </ul>
-          <ul>
-            -Elephant Butte
-          </ul>
-          <ul>
-            -Camel Butte
-          </ul>
-          <ul>
-            -Merrick Butte
-<center><img src="https://media.deseretdigital.com/file/1e23c86022?crop=top:0|left:0|width:940|height:500|gravity:Center&quality=55&interlace=none&resize=width:940&order=resize,crop&c=14&a=8e1c7dfe" alt="" style="width:50%;height:30%"><center>
-<p>Observing from a distance not your thing? Instead of driving the 17 mile loop to view these stunning mesas and buttes, you can choose to hike instead. These hiking trails include..
+  <body style="background-color: #FFA987; font-family:verendas">
+    <nav>
+      <div class="nav-wrapper" style="background-color: #444140">
+        <a href="#" clas="brand-logo right"> </a>
+        <ul id="nav-mobile" class"left hide-on-med-and-down">
+          <li><a href="file:///S:/mbeckwith/intro.html"><i class="material-icons left">refresh</i></a></li>
+        </ul>
+      </div>
+    </nav>
+    <br><br>
+    <h1 style="text-align: center">Monument Valley, Arizona</h1>
 
 
-<ul>
-EASY
-</ul>
-<ul>
--Natural Bridges Owachomo Trail
-<ul>
--Hovenweep Cajon Group
-</ul>
-<ul>
--Hovenweep Cutthroat Castle Group
-</ul>
-<ul>
--Hovenweep Hackberry Group
-</ul>
-<ul>
--Hovenweep Holly Group
-</ul>
-<ul>
--Hovenweep Horseshoe Group
-</ul>
-<ul>
--Hovenweep Square Tower Ruins
-</ul>
-<ul>
--Natural Bridges Horsecollar Overlook
-</ul>
-<ul>
-MODERATE
-</ul>
-<ul>
-  -Butler Wash Ruins
-</ul>
-<ul>
-  -Natural Bridges Kachina Trail
-</ul>
-<ul>
-  -Natural Bridges Sipapu Trail
-</ul>
-<ul>
-HARD
-</ul>
-<ul>
-  -Grand Gulch - Bullet Canyon to Canyon Junction
-</ul>
-<ul>
-  -Grand Gulch
-</ul>
-<ul>
-  -Mule Canyon Ruins
-</ul>
+<p style="color: #f7eb38"></p>
+
+
+
+  </head>
+   <body onload="loadSite()" style="text-align: center" style="background-color: #FFFEFF">
+     <br>
+     <br>
+     <h3 id="welcome" class="center-align"></h3>
+     <form id="form1">
+       <div class="input-field">
+         <input type="text" id="inputbox">
+         <label class="active" for="name">Name</label>
+       </div>
+       <button class="btn" name="button" onclick="submitForm(this.form)"><i class="large material-icons">send</i></button>
+     </form>
+
+     <script>
+       function loadSite(){
+         if(document.cookie.length > -1){
+           document.getElementById("welcome").innerHTML = "Welcome " + document.cookie + "!!!";
+         }
+         else{
+           document.getElementById("welcome").innerHTML = "";
+         }
+       }
+       function submitForm(form) {
+         var name = form.inputbox.value;
+         document.cookie = name;
+         document.getElementById("welcome").innerHTML = "Welcome " + name + "!!!";
+         location.reload();
+       }
+     </script>
+
+     <!--Import jQuery before materialize.js-->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+     <script>
+         $(".button-collapse").sideNav();
+     </script>
+   </body>
+ </html>
+
+
+    <p class="flow-text">
+      <div class="container">
+      <div class="scroll">
+        <div class="flex-center">
+          <div class="card m-5">
+            <div class="view overlay hm-white-slight">
+              <div class="mask"></div>
+            </div>
+
+            </div>
+            <div class="card-body" style="background-color: #FFFEFF; color: #000300">
+              <div class="card-image m-5 center">
+                <br>
+                <img src= "https://lonelyplanetimages.imgix.net/a/g/hi/t/7cb15f040aed09067fb48ab6234fd63f-monument-valley-navajo-tribal-park.jpg?sharp=10&vib=20&w=1200" style="width:95%; height:95%;">
+              </div>
+              <p class="card-footer:last-child center" style="font-size: 14px">
+                <span class="card-title">Monument Valley Navajo Tribal Park boasts some of the most majestic rock formations. Some of these masterpieces tower at a staggering 1,000 feet!</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <p class="flow-text">
+      <div class="container">
+      <div class="scroll">
+        <div class="flex-center">
+          <div class="card m-5">
+            <div class="view overlay hm-white-slight">
+              <div class="mask"></div>
+            </div>
+
+            </div>
+            <div class="card-body" style="background-color: #FFFEFF; color: #000300">
+              <div class="card-image m-5 center">
+                <br>
+                <img src= "http://www.monumentvalley-tipivillage.com/wp-content/uploads/2014/12/MVTV-500mile-map-Web-11-22-14.jpg" style="width:95%; height:95%;">
+              </div>
+              <p class="card-footer:last-child center" style="font-size: 14px">
+                <span class="card-title">Right on the eastern border of Utah and Arizona, you can find this gorgeous, unique landscape known as Mounument Valley</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<center><a href="https://www.google.com/maps/place/Monument+Valley+Navajo+Tribal+Park/@36.9895165,-110.1334307,17z/data=!3m1!4b1!4m5!3m4!1s0x873731f8554a299b:0xa661fbb48fdeb730!8m2!3d36.9895165!4d-110.131242"><button class="btn btn-large red"><i class="material-icons left">drive_eta</i>Click to view in Google Maps</button></a><center>
+
+  </p>
+    </div>
+    <div class="card-action">
+
+    </div>
+  </div>
+
+
+            <div class="card s30" style="width:40rem">
+              <div class="card-image">
+                <img src= "https://www.gousa.in/sites/default/files/styles/hero_m_1300x700/public/images/hero_media_image/2016-11/07f3092a58ea8d0102ef88b72c837cd4.png?itok=6U0I70kG">
+                <span class="card-title">As you can see, Monument Valley Park has many beatiful natural features. A few of these include..</span>
+              </div>
+              <div class="card-content">
+                <p><ul>
+                  <li>-West Mitten Butte</li>
+                  <li>-East Mitten Butte</li>
+                  <li>-Camel Butte</li>
+                  <li>-Merrick Butte</li>
+                <ul>
+
+
+            </p>
+              </div>
+              <div class="card-action">
+                <a href="http://www.americansouthwest.net/utah/monument_valley/valley-drive.html">click to see all of the magnificent features Monument valley has to offer</a>
+              </div>
+            </div>
+
+<div class="card s30" style="width:40rem">
+  <div class="card-image">
+    <img src= "https://media.deseretdigital.com/file/1e23c86022?crop=top:0|left:0|width:940|height:500|gravity:Center&quality=55&interlace=none&resize=width:940&order=resize,crop&c=14&a=8e1c7dfe">
+    <span class="card-title">Observing from a distance not your thing? Instead of driving the 17 mile loop to view these stunning mesas and buttes, you can choose to hike instead. These hiking trails include..</span>
+  </div>
+  <div class="card-content">
+    <p><ul>
+    EASY
+    </ul>
+    <ul>
+    -Natural Bridges Owachomo Trail
+    <ul>
+    -Hovenweep Cajon Group
+    </ul>
+    <ul>
+    -Hovenweep Cutthroat Castle Group
+    </ul>
+    <ul>
+    -Hovenweep Hackberry Group
+    </ul>
+    <ul>
+    -Hovenweep Holly Group
+    </ul>
+    <ul>
+    -Hovenweep Horseshoe Group
+    </ul>
+    <ul>
+    -Hovenweep Square Tower Ruins
+    </ul>
+    <ul>
+    -Natural Bridges Horsecollar Overlook
+    </ul>
+    <ul>
+    MODERATE
+    </ul>
+    <ul>
+      -Butler Wash Ruins
+    </ul>
+    <ul>
+      -Natural Bridges Kachina Trail
+    </ul>
+    <ul>
+      -Natural Bridges Sipapu Trail
+    </ul>
+    <ul>
+    HARD
+    </ul>
+    <ul>
+      -Grand Gulch - Bullet Canyon to Canyon Junction
+    </ul>
+    <ul>
+      -Grand Gulch
+    </ul>
+    <ul>
+      -Mule Canyon Ruins
+    </ul>
+</p>
+  </div>
+  <div class="card-action">
+    <a href="https://utah.com/hiking/monument-valley">click to view more trails</a>
+  </div>
+</div>
+
+
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
@@ -120,4 +226,5 @@ HARD
 
 
     <footer>Made 8/27/18</footer>
+</center>
 </html>
